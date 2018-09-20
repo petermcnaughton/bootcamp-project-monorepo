@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 12b05455aa1499f93d9e5569d388dbebb6c22ed7 Dan Foad <daniel.foad@sky.uk> 1533115583 +0100	clone: from http://skyjourneysgitlab/avacados/SkyJourneys-core.git
+12b05455aa1499f93d9e5569d388dbebb6c22ed7 48bf07934245d98e444db4cbe6e761399259b7c6 Dan Foad <daniel.foad@sky.uk> 1533115617 +0100	checkout: moving from master to brokenapiconn
+48bf07934245d98e444db4cbe6e761399259b7c6 909188d18d7835a5e625c6c2f103527464ff0079 Dan Foad <daniel.foad@sky.uk> 1533156272 +0100	pull origin master: Merge made by the 'recursive' strategy.
+909188d18d7835a5e625c6c2f103527464ff0079 909188d18d7835a5e625c6c2f103527464ff0079 Dan Foad <daniel.foad@sky.uk> 1533156350 +0100	checkout: moving from brokenapiconn to amadeus
+909188d18d7835a5e625c6c2f103527464ff0079 8cdc1c7e95eac4f893b90f480ab1e157d7ffb974 Dan Foad <daniel.foad@sky.uk> 1533161950 +0100	commit: Set up Amadeus API interface with basic search endpoint
+8cdc1c7e95eac4f893b90f480ab1e157d7ffb974 8f382c94984f96e33fcf6eb864db86fa20e70eb6 Dan Foad <daniel.foad@sky.uk> 1533164626 +0100	commit: Build flight details return object for flights endpoint
+8f382c94984f96e33fcf6eb864db86fa20e70eb6 67e648b8852a5665e78b355b68777e0b0d1151a6 Dan Foad <daniel.foad@sky.uk> 1533290958 +0100	commit: sdf
+67e648b8852a5665e78b355b68777e0b0d1151a6 12b05455aa1499f93d9e5569d388dbebb6c22ed7 Dan Foad <daniel.foad@sky.uk> 1533290961 +0100	checkout: moving from amadeus to master

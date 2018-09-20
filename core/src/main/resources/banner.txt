@@ -1,0 +1,54 @@
+================================================================================
+
+
+           _____ _                 _
+          / ____| |               | |
+         | (___ | | ___   _       | | ___  _   _ _ __ _ __   ___ _   _ ___
+          \___ \| |/ / | | |  _   | |/ _ \| | | | '__| '_ \ / _ \ | | / __|
+          ____) |   <| |_| | | |__| | (_) | |_| | |  | | | |  __/ |_| \__ \
+         |_____/|_|\_\\__, |  \____/ \___/ \__,_|_|  |_| |_|\___|\__, |___/
+                       __/ |                                      __/ |
+                      |___/                                      |___/
+================================================================================
+
+                        ****** Sky Journeys (Core) API *****
+                        ******    2018 (c) Sky Uk      *****
+
+================================================================================
+
+                                AKA Project Avocado
+
+                                        ```````
+                                    `-/+osso/-..``
+                                  ./shddmmmddyo:..``
+                                `:ydmmNNNNNmmmdh+-..`
+                              `.+dmNNNNNNmNNNNNmdy/-.``
+                             `-sdmNNNNNNNNNNNNNNmdh+-..``
+                            `:hmNNNNNNNNNNNNNNNNNNmh+-..`
+                           ./dmNNNNNNNNNNNNNNNNNNNNmh+...`
+                          .oddmNNNNNNNNNNNNNNNNNNNNNmh:.-```
+                        `:yds.+mmNNNNNNmmmNNNNNNNNNmmds--.``
+                      `-odmNmhdhdmmmmmm/:hNNNNNNNNNNNmh/...`
+                    `./hmmNmNNmhoooosdNysmNNNNNNmNNNNmds.-.``
+                   `-sdmNNNNNNNNNmmmNNNNNNNNNNNNNNNNNNmh-.-.`
+                 ``:hmNNNNNmNNNmmmmmmmNmNNNmNNNNNNNNNNmh:.-.`
+                 `/hmNNNNNNmddhyysssyhdmmNNNNNNNNNNNNNmd+.-.``
+                `:hmmNNNmdhso++////::::/ohmmmNNNNNNmNNmd+--.`
+                -ymNNNNmhs++//:::--------:/hmNNNNNNNNNmd+--.`
+               .odNmmNdyo+//::------.....---omNNNNNmNNmd/--.`
+              .-hmNNNmyo+//:------..........-omNNNNNNNmh/.-.`
+              ./dmNmmds///:-----........```..-dNmNNmNNmh---.`
+              `+dmNNmho//:-----......```````.-yNNNNNNmds---.`
+              `+dmNmmho//:---.......````````.-yNmNNNNmh/---.`
+              `/hmNNNmy+/:--......`````````../dNNNNNmms---.``
+              `.ydmmNmds/:--....``````````..:hNNmNNmmh/--.```
+               `:ydmNNmds/:-...`````````.../hmNNNNmdy/---.`
+                `:ydmNNmmho/--...```....-/ymmNNNmmds:--..`
+                 `-ohmmmNNmdy+/:-----:+shmNNNNmmdy+---.``
+                   .:ohdmmNmNmmddddddmmmNNNmmdhs/--..``
+                    -.:+shddmmmmmmmmmmmmmddys+:-...``
+                       `.-:+osyyhhhhyyyso+:-..````
+                            ``..--.....`````
+
+
+================================================================================

@@ -1,0 +1,37 @@
+{% for activity in activities %}
+
+
+<div class="accordion__card c-tile">
+    <div class="c-tile__content activity__container">
+
+        <div class="activity__choose">
+            <input type="radio" class="activity__radio" id="{{ activity['activityId'] }}" name="activitychooser">
+            <label for="{{ activity['activityId'] }}"></label>
+        </div>
+
+        <div class="activity__activity">
+            <div class="activity__info">
+
+                    <p class="activity--name">{{ activity['activity']['activityName'] }}</p>
+                    <p class="activity--address">{{ activity['activity']['activityAddress'] }}</p>
+                    <p class="activity--location">{{ activity['activity']['activityLocation'] }} </p>
+                    <div class="activity__details">
+                        <p class="activity--people">Number of People: {{ activity['activity']['activityPeople'] }}</p>
+                        <p class="activity--time">Time: {{ activity['activity']['activityTime'] }}</p>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="activity__price c-heading-delta">Price: {{ activity['price'] }}</div>
+
+
+
+
+
+
+    </div>
+</div>
+
+
+{% endfor %}

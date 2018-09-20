@@ -1,0 +1,51 @@
+{
+  "bookingId": "722341_0_12",
+  "outbound": {
+    "segments": [
+      {
+        "airline": "American Airways",
+        "flightNumber": "344",
+        "flightLength": "0810",
+        "arrivalDateTime": "2018-09-16T20:40:00",
+        "arrivalAirportIATA": "JFK",
+        "arrivalAirportName": "John F Kennedy Intl",
+        "arrivalAirportTerminal": "4",
+        "departureDateTime": "2018-09-16T17:30:00",
+        "departureAirportIATA": "LHR",
+        "departureAirportName": "London Heathrow",
+        "departureAirportTerminal": "5"
+      }
+    ]
+  },
+  "returnbound": {
+    "segments": [
+      {
+        "airline": "American Airways",
+        "flightNumber": "712",
+        "flightLength": "0705",
+        "arrivalDateTime": "2018-09-22T10:50:00",
+        "arrivalAirportIATA": "LHR",
+        "arrivalAirportName": "London Heathrow",
+        "arrivalAirportTerminal": "5",
+        "departureDateTime": "2018-09-21T22:45:00",
+        "departureAirportIATA": "JFK",
+        "departureAirportName": "John F Kennedy Intl",
+        "departureAirportTerminal": "4"
+      }
+    ]
+  },
+  "price": 2122,
+  "currency": "GBP",
+  "tickets": [
+    {
+      "type": "ADT",
+      "quantity": 3,
+      "fare": 300,
+      "tax": 128.05,
+      "currency": "GBP",
+      "ticketDetails": [
+        "--NO RESTRICTIONS--"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pages.profile.ProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="201dp"
+        android:layout_height="164dp"
+        android:elevation="2dp"
+        android:src="@drawable/avocado_rose"
+        app:civ_border_color="#FFD0D0D0"
+        app:civ_border_width="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/my_journeys_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/my_journeys_button"
+        style="@style/ButtonTheme"
+        android:background="@drawable/purple_button"
+        android:text="@string/my_journeys"
+        android:onClick="startMyBookingsActivity"
+        app:layout_constraintBottom_toTopOf="@+id/past_journeys_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/past_journeys_button"
+        style="@style/ButtonTheme"
+        android:background="@drawable/bright_pink_button"
+        android:text="@string/past_journeys"
+        android:onClick="startPastBookingsActivity"
+        app:layout_constraintBottom_toTopOf="@+id/wishlist_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/wishlist_button"
+        style="@style/ButtonTheme"
+        android:background="@drawable/pink_button"
+        android:text="@string/wishlist"
+        android:onClick="startWishlistActivity"
+        app:layout_constraintBottom_toTopOf="@+id/achievements_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/achievements_button"
+        style="@style/ButtonTheme"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/orange_button"
+        android:text="@string/achievements"
+        android:onClick="startAchievementsActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

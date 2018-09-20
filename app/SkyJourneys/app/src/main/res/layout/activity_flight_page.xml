@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pages.myjourneys.Flight"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="462dp"
+        android:layout_height="749dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="bottom|clip_vertical"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/gateClosing"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#1CACFF"
+            android:text="                   GATE CLOSES AT:"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="0dp" />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#6CBBFF"
+            app:cardElevation="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.159"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/boardingPass"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="420dp"
+                android:background="#6C83FF"
+                android:text="VIEW BOARDING PASS"
+                android:textColor="@color/cardview_light_background" />
+
+            <TextView
+                android:id="@+id/fromAirport"
+                android:layout_width="98dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/toAirport"
+                android:layout_width="98dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="315dp"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="100dp"
+                android:background="#666666"
+                app:cardBackgroundColor="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="170dp"
+                android:src="@drawable/airplane" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="51dp"
+                android:layout_marginTop="250dp"
+                android:background="#666666"
+                app:cardBackgroundColor="@color/colorPrimary" />
+
+            <TextView
+
+                android:id="@+id/fromCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="55dp"
+                android:text="London"
+                android:textColor="@color/cardview_light_background"
+                android:textColorLink="@color/cardview_light_background"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/toCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="320dp"
+                android:text="Istanbul"
+                android:textColor="@color/cardview_light_background"
+                android:textColorLink="@color/cardview_light_background"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:id="@+id/flight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="120dp"
+                android:text="FLIGHT"
+                android:textColor="@color/cardview_light_background"
+                android:textColorLink="@color/cardview_light_background"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:id="@+id/flightNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="120dp"
+                android:text="FR1234"
+                android:textColor="@color/cardview_light_background"
+                android:textColorLink="@color/cardview_light_background"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:id="@+id/seat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="150dp"
+                android:text="SEAT"
+                android:textColor="@color/cardview_light_background"
+                android:textColorLink="@color/cardview_light_background"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:id="@+id/seatNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="150dp"
+                android:text="8A"
+                android:textColor="@color/cardview_light_background"
+                android:textColorLink="@color/cardview_light_background"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:id="@+id/gate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="180dp"
+                android:text="Gate"
+                android:textColor="@color/cardview_light_background"
+                android:textColorLink="@color/cardview_light_background"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:id="@+id/gateNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="180dp"
+                android:text="15"
+                android:textColor="@color/cardview_light_background"
+                android:textColorLink="@color/cardview_light_background"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:id="@+id/departs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="210dp"
+                android:text="DEPARTS"
+                android:textColor="@color/cardview_light_background"
+                android:textColorLink="@color/cardview_light_background"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:id="@+id/departsTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="210dp"
+                android:text="18:00"
+                android:textColor="@color/cardview_light_background"
+                android:textColorLink="@color/cardview_light_background"
+                android:textSize="18sp" />
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

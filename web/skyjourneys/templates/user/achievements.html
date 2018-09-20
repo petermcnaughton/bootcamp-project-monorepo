@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}Achievements{% endblock %}
+
+{% block content %}
+    <div class="o-container">
+        <div class="o-layout achievements">
+            {% for achievement in achievements %}
+                <div class="achievements__item o-layout__item u-width-1/3@large u-width-1/2@medium u-width-1/1">
+                    <div class="achievements__content" ontouchstart="this.classList.toggle('hover');">
+
+                        <div class="card {{ achievement['unlocked'] }}" id="{{ achievement['id'] }}">
+
+                            <!-- Front of the Card -->
+                            <div class="card__face front">
+                                <h2 class="c-heading-alpha achievement__name">{{ achievement['name'] }}</h2>
+                                <img src="{{ achievement['image'] }}" alt="">
+                                <h3 class="front-description">{{ achievement['description'] }} </h3>
+                            </div>
+                            
+                            <!-- Back of the Card -->
+                            <div class="card__face back id="locked">
+                                <h4 class="c-heading-charlie achievement__name">{{ achievement['name'] }}</h4>
+                                <h5>{{ achievement['description'] }} </h5>
+                                <img src="{{ achievement['prize_image'] }}" alt="">
+                                <p>{{ achievement['prize'] }}</p> 
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

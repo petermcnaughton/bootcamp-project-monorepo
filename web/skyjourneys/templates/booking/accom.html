@@ -1,0 +1,39 @@
+{% for accom in accoms %}
+<div class="accordion__card c-tile">
+    <div class="c-tile__content accom__container">
+
+        
+        <div class="accom__choose">
+            <input type="radio" class="accom__radio" id="{{ accom['accomId'] }}" name="accomchooser">
+            <label for="{{ accom['accomId'] }}"></label>
+        </div>
+
+        <div class="accom__accom">
+
+                <div class="accom__location">
+                    <p class="accom--name">{{ accom['accom']['accomName'] }}</p>
+                    <p class="accom--address">{{ accom['accom']['accomAddress'] }}</p>
+                </div>
+
+                <div class="accom__time">
+                    <div class="accom__checkIn">
+                        <p class="accom--time--header">Check In:</p>
+                        <p class="accom--check--time">{{ accom['accom']['checkInTime'] }}</p>
+                    </div>
+                    <div class="accom__checkOut">
+                        <p class="accom--time--header">Check Out:</p>
+                        <p class="accom--check--time">{{ accom['accom']['checkOutTime'] }}</p>
+                    </div>
+                    <div class="accom__rooms">
+                        <p class="accom--time--header">Rooms:</p>
+                        <p class="accom--rooms">{{ accom['accom']['accomRooms'] }}</p>
+                    </div>
+                </div>
+                
+        </div>
+
+
+        <div class="accom__price c-heading-delta">Price: {{ accom['price'] }}</div>
+    </div>
+</div>
+{% endfor %}

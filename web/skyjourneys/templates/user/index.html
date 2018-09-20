@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="o-container u-margin-bottom-large">
+    <div class="o-layout upper-content">
+        <div class="o-layout__item main-container u-width-3/4@medium">
+            <div class="c-hero start-journey">
+                <div class="c-hero__caption">
+                    <div class="o-container">
+                    <a class="c-hero__link" href="/start">
+                        <p class="c-heading-alpha u-margin-bottom-none">Start a Journey</p>
+                        <p class="c-heading-delta u-margin-bottom">Click here</p>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside class="o-layout__item sidebar u-width-1/4@medium">
+            <section class="c-tile c-tile--solid-white u-margin-bottom-large">
+                <h2 class="c-text-lead u-text-center u-margin-bottom-tiny u-margin-top-small">Have an EPG code?</h2>
+                <h3 class="c-text-body u-text-center u-margin-bottom-small">Enter it here</h3>
+                <form action="/location/dubrovnik">
+                    <ul class="c-form-list epg-input">
+                        <li class="c-form-list__item">
+                            <input type="text" class="c-form-input u-text-center" placeholder="12345ABC" />
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </aside>
+    </div>
+</div>
+<div class="featured-home o-layout o-container">
+    <h1 class="o-layout__item c-heading-bravo">Featured Journey</h1>
+    <div class="c-hero">
+        <div class="c-hero__caption">
+            <div class="o-container">
+            <a class="c-hero__link" href="/featured">
+                <p class="c-heading-alpha u-margin-bottom-none">{{ featured['location'] }} ({{ featured['country'] }})</p>
+                <p class="c-heading-delta u-margin-bottom">As featured in {{ featured['show'] }}</p>
+            </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

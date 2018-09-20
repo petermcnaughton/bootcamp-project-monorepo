@@ -1,0 +1,291 @@
+{% extends 'base.html' %} {% block title %}Choose Options{% endblock %} {% block content %}
+<div class="o-container accordion__container">
+    <div class="search-details">
+        <form action="/start" method="post">
+            <input type="hidden" name="from" value="{{ formValues['from'] }}">
+            <input type="hidden" name="to" value="{{ formValues['to'] }}">
+            <input type="hidden" name="depart" value="{{ formValues['depart'] }}">
+            <input type="hidden" name="returnbound" value="{{ formValues['returnbound'] }}">
+            <input type="hidden" name="adults" value="{{ formValues['adults'] }}">
+            <input type="hidden" name="children" value="{{ formValues['children'] }}">
+            <input type="hidden" name="returnReturn" value="{{ formValues['returnReturn'] }}">
+            <input type="hidden" name="returnOneWay" value="{{ formValues['returnOneWay'] }}">
+            <button type="submit" class="c-link c-link--back">Change Search</button>
+        </form>
+        <p class="c-text-lead">{{ choiceString }}</p>
+    </div>
+    <div class="accordion">
+        <div id="accordion-1" class="accordion__panel accordion__panel--open">
+            <div class="accordion__icon">
+                <img src="{{ url_for('static', filename='icon/plane_alt.svg') }}" alt="">
+            </div>
+            <div class="accordion__content">
+                <h2 class="c-heading-bravo">Flights</h2>
+                <div class="accordion__cards" id="flights">
+                    <div class="accordion__card c-tile flight__preload">
+                        <div class="c-tile__content flight__container">
+                            <div class="spinner">
+                                <div class="rect1"></div>
+                                <div class="rect2"></div>
+                                <div class="rect3"></div>
+                                <div class="rect4"></div>
+                                <div class="rect5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion__card c-tile flight__preload">
+                        <div class="c-tile__content flight__container">
+                            <div class="spinner">
+                                <div class="rect1"></div>
+                                <div class="rect2"></div>
+                                <div class="rect3"></div>
+                                <div class="rect4"></div>
+                                <div class="rect5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion__card c-tile flight__preload">
+                        <div class="c-tile__content flight__container">
+                            <div class="spinner">
+                                <div class="rect1"></div>
+                                <div class="rect2"></div>
+                                <div class="rect3"></div>
+                                <div class="rect4"></div>
+                                <div class="rect5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion__card c-tile flight__preload">
+                        <div class="c-tile__content flight__container">
+                            <div class="spinner">
+                                <div class="rect1"></div>
+                                <div class="rect2"></div>
+                                <div class="rect3"></div>
+                                <div class="rect4"></div>
+                                <div class="rect5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion__card c-tile flight__preload">
+                        <div class="c-tile__content flight__container">
+                            <div class="spinner">
+                                <div class="rect1"></div>
+                                <div class="rect2"></div>
+                                <div class="rect3"></div>
+                                <div class="rect4"></div>
+                                <div class="rect5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion__card c-tile flight__preload">
+                        <div class="c-tile__content flight__container">
+                            <div class="spinner">
+                                <div class="rect1"></div>
+                                <div class="rect2"></div>
+                                <div class="rect3"></div>
+                                <div class="rect4"></div>
+                                <div class="rect5"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="accordion-2" class="accordion__panel">
+            <div class="accordion__icon">
+                <img src="{{ url_for('static', filename='icon/hotel.svg') }}" alt="">
+            </div>
+
+            <div class="accordion__content">
+                <h2 class="c-heading-bravo">Accommodation</h2>
+                <div class="accordion__cards">
+
+                    {% include "booking/accom.html" %}
+
+                </div>
+            </div>
+        </div>
+
+        <div id="accordion-3" class="accordion__panel">
+            <div class="accordion__icon">
+                <img src="{{ url_for('static', filename='icon/destination.svg') }}" alt="">
+            </div>
+
+            <div class="accordion__content">
+                <h2 class="c-heading-bravo">Activities</h2>
+                <div class="accordion__cards">
+
+                    {% include "booking/activities.html" %}
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <button style="height: 15em" type="button" id="button-finish-and-pay" class="btn-pay c-btn c-btn--secondary">
+
+        <i class="far fa-credit-card"></i>&nbsp;&nbsp;Finish And Pay
+        <span class="totalPrice">( £0.00 )</span>
+    </button>
+    <div class="payment">
+        <script src="https://checkout.stripe.com/checkout.js"></script>
+        <script>
+            var totalPrice = 0.0;
+
+            var handler = StripeCheckout.configure({
+                key: 'pk_test_UTPAv1MIIefE4cHndRY5k5Me',
+                image: "{{ url_for('static', filename='img/skyjourneyslogo.png') }}",
+                locale: 'auto',
+                token: function (token) {
+                    window.location.replace('/confirmation')
+                }
+            });
+
+            document.getElementById('button-finish-and-pay').addEventListener('click', function (e) {
+                // Open Checkout with further options:
+                handler.open({
+                    name: 'Sky Journeys',
+                    description: 'Book Your Journey...',
+                    currency: 'gbp',
+                    amount: totalPrice * 100
+                });
+                e.preventDefault();
+            });
+
+            // Close Checkout on page navigation:
+            window.addEventListener('popstate', function () {
+                handler.close();
+            });
+        </script>
+    </div>
+</div>
+
+<script>
+
+    function attachFlightListeners() {
+        $('.flight__container, .accom__container, .activity__container').on('click', (e) => {
+            if ($(e.currentTarget).find('.flight__radio').is(':checked'))
+                $(e.currentTarget).find('.flight__radio').prop('checked', false)
+            else
+                $(e.currentTarget).find('.flight__radio').prop('checked', true)
+
+            flightPrice = 0.0
+            accomPrice = 0.0
+            activityPrice = 0.0
+
+            $('.flight__container').each((i, entry) => {
+                if ($(entry).find('.flight__radio').is(':checked')) {
+                    flightPrice = parseFloat($(entry).find('.flight__price').text().replace('Price: ', ''))
+                }
+            })
+
+            $('.accom__container').each((i, entry) => {
+                if ($(entry).find('.accom__radio').is(':checked')) {
+                    accomPrice = parseFloat($(entry).find('.accom__price').text().replace('Price: ', ''))
+                }
+            })
+
+            $('.activity__container').each((i, entry) => {
+                if ($(entry).find('.activity__radio').is(':checked')) {
+                    activityPrice = parseFloat($(entry).find('.activity__price').text().replace('Price: ', ''))
+                }
+            })
+
+            totalPrice = flightPrice + accomPrice + activityPrice
+            $('#button-finish-and-pay .totalPrice').text('( £' + totalPrice.toFixed(2) + ' )')
+        })
+    }
+
+    var template = `<div class="accordion__card c-tile">
+            <div class="c-tile__content flight__container">
+                <div class="flight__choose">
+                    <input type="radio" class="flight__radio" id="{ flight['flightid'] }" name="flightchooser">
+                    <label for="{ flight['flightid'] }"></label>
+                </div>
+
+                <div class="flight__flights">
+
+                    <div class="flight__journey">
+                        <div class="flight__from">
+                            <p class="flight--time">{ flight['outbound']['departureTime'] }</p>
+                            <p class="flight--airport">{ flight['outbound']['departureAirportIATA'] }</p>
+                        </div>
+
+                        <div class="flight__duration">
+                            <p class="flight--duration">{ flight['outbound']['duration'] }</p>
+                            <div class="flight__flightline">
+                                <hr class="c-keyline">
+                                <img src="{{ url_for('static', filename='icon/plane.svg') }}" alt="">
+                            </div>
+                            <p class="flight--direct">Direct</p>
+                        </div>
+
+                        <div class="flight__to">
+                            <p class="flight--time">{ flight['outbound']['arrivalTime'] }</p>
+                            <p class="flight--airport">{ flight['outbound']['arrivalAirportIATA'] }</p>
+                        </div>
+                    </div>
+
+                    <div class="flight__journey">
+                        <div class="flight__from">
+                            <p class="flight--time">{ flight['return']['departureTime'] }</p>
+                            <p class="flight--airport">{ flight['return']['departureAirportIATA'] }</p>
+                        </div>
+
+                        <div class="flight__duration">
+                            <p class="flight--duration">{ flight['return']['duration'] }</p>
+
+                            <div class="flight__flightline">
+                                <hr class="c-keyline">
+                                <img src="{{ url_for('static', filename='icon/plane.svg') }}" alt="">
+                            </div>
+
+                            <p class="flight--direct">Direct</p>
+                        </div>
+
+                        <div class="flight__to">
+                            <p class="flight--time">{ flight['return']['arrivalTime'] }</p>
+                            <p class="flight--airport">{ flight['return']['arrivalAirportIATA'] }</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="flight__price c-heading-delta">Price: { flight['price'] }</div>
+            </div>
+        </div>`
+
+        $.post('/_get_flights', {
+            'from': $('input[name=from]').val(),
+            'to': $('input[name=to]').val(),
+            'depart': $('input[name=depart]').val(),
+            'returnbound': $('input[name=returnbound]').val(),
+            'adults': $('input[name=adults]').val(),
+            'children': $('input[name=children]').val(),
+            'returnReturn': $('input[name=returnReturn]').val(),
+            'returnOneWay': $('input[name=returnOneWay]').val(),
+        }, (data) => {
+            $('#flights').html("")
+            for (var i = 0; i < data.length; i++) {
+                var flight = template
+                flight = flight.replace("{ flight['flightid'] }", data[i]['flightid'])
+                flight = flight.replace("{ flight['outbound']['departureTime'] }", data[i]['outbound']['departureTime'])
+                flight = flight.replace("{ flight['outbound']['departureAirportIATA'] }", data[i]['outbound']['departureAirportIATA'])
+                flight = flight.replace("{ flight['outbound']['duration'] }", data[i]['outbound']['duration'])
+                flight = flight.replace("{ flight['outbound']['arrivalTime'] }", data[i]['outbound']['arrivalTime'])
+                flight = flight.replace("{ flight['outbound']['arrivalAirportIATA'] }", data[i]['outbound']['arrivalAirportIATA'])
+                flight = flight.replace("{ flight['return']['departureTime'] }", data[i]['return']['departureTime'])
+                flight = flight.replace("{ flight['return']['departureAirportIATA'] }", data[i]['return']['departureAirportIATA'])
+                flight = flight.replace("{ flight['return']['duration'] }", data[i]['return']['duration'])
+                flight = flight.replace("{ flight['return']['arrivalTime'] }", data[i]['return']['arrivalTime'])
+                flight = flight.replace("{ flight['return']['arrivalAirportIATA'] }", data[i]['return']['arrivalAirportIATA'])
+                flight = flight.replace("{ flight['price'] }", data[i]['price'])
+
+                $('#flights').append(flight)
+            }
+            attachFlightListeners()
+        }, 'json')
+
+</script>
+
+{% endblock %}

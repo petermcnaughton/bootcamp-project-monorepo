@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block title %}Log In{% endblock %}
+
+{% block content %}
+<div class="o-container">
+    <div class="auth-heading">
+        <h1 class="c-heading-bravo">Sign in to Sky</h1>
+        <article class="auth-box c-tile">
+            <div class="c-tile__content">
+                <div class="c-tile__body">
+                    <p class="c-tile__title c-heading-delta u-margin-bottom-large">Sign In</p>
+                    <form method="post">
+                        <fieldset>
+                            <ul class="c-form-list">
+                                <li class="c-form-list__item">
+                                    <label class="c-form-label" for="email">
+                                    Email <abbr title="This field is required" class="c-form-required">*</abbr>
+                                    </label>
+                                    <input type="email" class="c-form-input" placeholder="e.g. joebloggs@example.com" name="email" id="email" required />
+                                </li>
+                                <li class="c-form-list__item">
+                                    <label class="c-form-label" for="password">
+                                    Password <abbr title="This field is required" class="c-form-required">*</abbr>
+                                    </label>
+                                    <input type="password" class="c-form-input" placeholder="********" name="password" id="password" required />
+                                    <span class="c-text-smallprint">Forgot your <a href="">username</a> or <a href="">password</a>?</span>
+                                </li>
+                                <li class="c-form-list__item">
+                                    <label class="c-form-checkbox">
+                                        <input type="checkbox" class="c-form-checkbox__input" id="remember" checked />
+                                        <span class="c-form-checkbox__caption">Keep me signed in</span>
+                                        <span class="c-text-smallprint">(Uncheck if on shared device)</span>
+                                    </label>
+                                </li>
+                                <li class="c-form-list__item">
+                                    <input type="submit" class="c-btn c-btn--primary" value="Sign In">
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                    <hr class="c-divider">
+                    <h3 class="c-text-lead">New to Sky Journeys?</h3>
+                    <p class="c-text-body">You'll need to register with Sky Journeys in order to complete your booking and use the exclusive features.</p>
+                    <a class="c-btn c-btn--secondary auth-signup" href="/register">Sign Up</a>
+                    <div class="u-clearfix"></div>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+{% endblock %}

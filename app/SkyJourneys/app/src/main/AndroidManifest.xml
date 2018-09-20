@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sky.journeys.skyjourneys">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".pages.signin.SignIn"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".pages.profile.ProfileActivity"
+            android:label="Profile" />
+        <activity
+            android:name=".pages.myjourneys.CurrentBooking"
+            android:label="@string/my_journeys"
+            android:parentActivityName=".pages.profile.ProfileActivity" />
+
+        <activity
+            android:name=".pages.myjourneys.AccommodationPage"
+            android:label="@string/accommodation"
+            android:parentActivityName=".pages.myjourneys.JourneyInfoActivity" />
+
+
+        <activity
+            android:name=".pages.myjourneys.JourneyInfoActivity"
+            android:label="@string/my_journeys"
+            android:parentActivityName=".pages.myjourneys.CurrentBooking"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".pages.pastjourneys.PastJourneysListActivity"
+            android:label="@string/past_journeys"
+            android:parentActivityName=".pages.profile.ProfileActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".pages.myjourneys.Flight" />
+
+        <activity
+            android:name=".pages.wishlist.Wishlist"
+            android:label="@string/wishlist"
+            android:parentActivityName=".pages.profile.ProfileActivity" />
+        <activity android:name=".pages.myjourneys.ActivityPage" />
+        <activity android:name=".pages.myjourneys.ActivitiesList" />
+        <activity
+            android:name=".pages.achievements.AchievementsActivity"
+            android:label="@string/achievements"
+            android:parentActivityName=".pages.profile.ProfileActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".pages.achievements.AchievementDetailActivity"
+            android:label="@string/achievements"
+            android:parentActivityName=".pages.achievements.AchievementsActivity"
+            android:theme="@style/AppTheme"/>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+
+    </application>
+
+</manifest>

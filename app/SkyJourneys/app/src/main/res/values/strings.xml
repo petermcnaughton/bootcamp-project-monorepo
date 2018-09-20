@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sky Journeys</string>
+    <string name="my_journeys">My Journeys</string>
+    <string name="past_journeys">Past Journeys</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="achievements">Achievements</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="flights">Flights</string>
+    <string name="accommodation">Accommodation</string>
+    <string name="activities">Activities</string>
+    <string name="journey_location">Amsterdam</string>
+
+    <string name= "activity_accomodation_page"> Accommodation </string>
+
+    <string name="journey_dates">2nd Aug - 6th Aug</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_accomodation">Map</string>
+    <string name="title_activity_past_journeys_list">PastJourneysListActivity</string>
+    <string name="default_no_past_journey">No past journeys yet!</string>
+    <string name="default_no_upcoming_journey">There are no upcoming journeys</string>
+    <string name="default_error">Oops! Something went wrong</string>
+    <string name="default_error_subtitle">Please try again later.</string>
+    <string name="default_visit_to_book">Visit\ <a href="">www.SkyJourneys.com</a> to book your next journey.</string>
+    <string name="countryName">Country</string>
+</resources>

@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 909188d18d7835a5e625c6c2f103527464ff0079 Dan Foad <daniel.foad@sky.uk> 1533156350 +0100	branch: Created from HEAD
+909188d18d7835a5e625c6c2f103527464ff0079 8cdc1c7e95eac4f893b90f480ab1e157d7ffb974 Dan Foad <daniel.foad@sky.uk> 1533161950 +0100	commit: Set up Amadeus API interface with basic search endpoint
+8cdc1c7e95eac4f893b90f480ab1e157d7ffb974 8f382c94984f96e33fcf6eb864db86fa20e70eb6 Dan Foad <daniel.foad@sky.uk> 1533164626 +0100	commit: Build flight details return object for flights endpoint
+8f382c94984f96e33fcf6eb864db86fa20e70eb6 67e648b8852a5665e78b355b68777e0b0d1151a6 Dan Foad <daniel.foad@sky.uk> 1533290958 +0100	commit: sdf

@@ -1,0 +1,16 @@
+{
+  "sessionId": "an201mn-nf93n20ufh1wss",
+  "destinationCity" : "NYC",
+  "departureCity" : "LON",
+  "departureDate" : "2018-09-16T00:00:00",
+  "returnDate" : "2018-09-21T00:00:00",
+  "persons": [
+    {
+      "passengerType": "ADT",
+      "quantity": 3
+    }
+  ],
+  "directFlightsOnly": true,
+  "sortByPrice": true,
+  "sortHighestFirst": false
+}
