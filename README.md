@@ -1,4 +1,4 @@
-# Bootcamp Proect Monorepo
+# Bootcamp Project Monorepo
 
 Disclaimer: This was made for a 5 week bootcamp under the Software Engineering Academy, it is in no way a Sky product
 
