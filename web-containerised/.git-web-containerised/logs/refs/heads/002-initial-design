@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 705be8763d780bb4563f612cd7dac9cd2e4c7930 Dan Foad <daniel.foad@sky.uk> 1531949869 +0100	branch: Created from HEAD
+705be8763d780bb4563f612cd7dac9cd2e4c7930 057fede18387c51e5964303277909dd08039a407 Dan Foad <daniel.foad@sky.uk> 1531949892 +0100	commit: Added Sky toolkit as minified css and added basic homepage design
+057fede18387c51e5964303277909dd08039a407 c3ace1a97769b347d7101c24b275fac8a880f3c2 Dan Foad <daniel.foad@sky.uk> 1531952007 +0100	commit: Styled nav bar in line with Sky guidelines
+c3ace1a97769b347d7101c24b275fac8a880f3c2 b995b4f2de57efd14bc654dc051ac6c96e1104c3 Dan Foad <daniel.foad@sky.uk> 1531952168 +0100	commit: Added .DS_Store to gitignore
+b995b4f2de57efd14bc654dc051ac6c96e1104c3 5e83ffd209805b912a1455184123d8688bbc4531 Dan Foad <daniel.foad@sky.uk> 1531952245 +0100	commit (merge): Sorted out gitignore
+5e83ffd209805b912a1455184123d8688bbc4531 6252a3186cb03b04776d61416988b96d89d9582a Dan Foad <daniel.foad@sky.uk> 1531953727 +0100	commit: Added start journey hero and epg input sidebar
+6252a3186cb03b04776d61416988b96d89d9582a 8c8195a4a00f48cc19d395e2476ed3220196e65e Dan Foad <daniel.foad@sky.uk> 1531954380 +0100	commit: Restyled logo to better match other brands
+8c8195a4a00f48cc19d395e2476ed3220196e65e 47b2e431d4f5a6f2cf297f35d600198b4e44c667 Dan Foad <daniel.foad@sky.uk> 1531994020 +0100	commit: Added additional content to homepage, hooked up template rendering
+47b2e431d4f5a6f2cf297f35d600198b4e44c667 efb8b604ce70be8888fdfbeb926d08a136f170aa Dan Foad <daniel.foad@sky.uk> 1531996814 +0100	commit: Worked on mobile/tablet responsiveness

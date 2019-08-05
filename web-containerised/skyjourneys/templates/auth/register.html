@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+<div class="o-container">
+    <div class="auth-heading">
+        <h1 class="c-heading-bravo">Register with Sky</h1>
+        <article class="auth-box c-tile">
+            <div class="c-tile__content">
+                <div class="c-tile__body">
+                    <p class="c-tile__title c-heading-delta u-margin-bottom-large">Sign Up</p>
+                    <form method="post">
+                        <fieldset>
+                            <ul class="c-form-list">
+                                <li class="c-form-list__item">
+                                    <label class="c-form-label" for="firstname">
+                                    First Name <abbr title="This field is required" class="c-form-required">*</abbr>
+                                    </label>
+                                    <input type="text" class="c-form-input" placeholder="e.g. Joe" name="firstname" id="firstname" required />
+                                </li>
+                                <li class="c-form-list__item">
+                                    <label class="c-form-label" for="lastname">
+                                    Last Name <abbr title="This field is required" class="c-form-required">*</abbr>
+                                    </label>
+                                    <input type="text" class="c-form-input" placeholder="e.g. Bloggs" name="lastname" id="lastname" required />
+                                </li>
+                                <li class="c-form-list__item">
+                                    <label class="c-form-label" for="email">
+                                    Email <abbr title="This field is required" class="c-form-required">*</abbr>
+                                    </label>
+                                    <input type="email" class="c-form-input" placeholder="e.g. joebloggs@example.com" name="email" id="email" required />
+                                </li>
+                                <li class="c-form-list__item">
+                                    <label class="c-form-label" for="password">
+                                    Password <abbr title="This field is required" class="c-form-required">*</abbr>
+                                    </label>
+                                    <input type="password" class="c-form-input" placeholder="********" name="password" id="password" required />
+                                </li>
+                                <li class="c-form-list__item">
+                                    <input type="submit" class="c-btn c-btn--primary" value="Sign Up">
+                                </li>
+                                <li>
+                                    <a class="c-text-smallprint" href="">Privacy &amp; Cookies Notice</a>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+{% endblock %}
