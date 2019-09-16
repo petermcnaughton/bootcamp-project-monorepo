@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{% block title %}{% endblock %} - Sky Journeys</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='toolkit.min.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script>
+  </head>
+  <body>
+    <header class="c-header main-heading">
+      <div class="o-container o-container--wide">
+        <div class="o-layout heading-container">
+          <div
+            class="logo-container o-layout__item u-width-1/4@large u-width-1/1@medium"
+          >
+            <a class="logo-link" href="/">
+              <div class="heading-title">
+                <img
+                  class="logo"
+                  src="{{ url_for('static', filename='img/skyjourneyslogo.png') }}"
+                  alt="Sky Journeys Logo"
+                />
+              </div>
+            </a>
+            <div class="hamburger"></div>
+          </div>
+          <nav
+            class="top-nav o-layout__item u-width-1/2@large u-width-3/4@medium u-width-1/1@small"
+          >
+            <ul class="o-layout__item o-layout--center">
+              <li><a href="/featured">Featured Journey</a></li>
+              <li><a href="/start">Start Journey</a></li>
+              <li><a href="/privacy">Privacy Policy</a></li>
+            </ul>
+          </nav>
+          <div
+            class="account-buttons o-layout__item o-layout--right u-width-1/4@medium u-width-1/1@small"
+          >
+            {% if g.user %}
+            <div class="heading-link__container">
+              <a href="{{ url_for('user.profile') }}">{{
+                g.user['firstname'] + ' ' + g.user['lastname']
+              }}</a>
+            </div>
+            <div class="heading-link__container">
+              <a href="{{ url_for('auth.logout') }}">Sign Out</a>
+            </div>
+            {% else %}
+            <div class="heading-link__container small">
+              <a href="{{ url_for('auth.login') }}">Sign In</a>
+            </div>
+            <div class="heading-link__container">
+              <a
+                href="{{ url_for('auth.register') }}"
+                class="c-btn c-btn--primary"
+              >
+                Register<img
+                  class="c-btn__icon c-btn__icon--right"
+                  src="https://www.sky.com/assets/toolkit/docs/buttons/example.svg"
+                  alt="Example Icon"
+                />
+              </a>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </header>
+    {% block content %}{% endblock %} {% for message in get_flashed_messages()
+    %}
+    <article class="c-panel c-panel--dark flash is-open">
+      <div class="c-panel__content">
+        <h3 class="c-heading-delta">{{ message }}</h3>
+        <button class="c-panel__toggle c-link c-link--close c-link--invert">
+          Close
+        </button>
+      </div>
+    </article>
+    {% endfor %}
+    <footer></footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

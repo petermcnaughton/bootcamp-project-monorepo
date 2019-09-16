@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[branch "master"]
+[branch "test"]
+[remote "origin"]
+	url = http://skyjourneysgitlab/avacados/SkyJourneys-web.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "server"]
+	url = ubuntu@52.18.168.30:/home/ubuntu/web
+	fetch = +refs/heads/*:refs/remotes/server/*

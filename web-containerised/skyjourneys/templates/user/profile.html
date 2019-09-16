@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+    <div class="o-container">
+        <div class="o-layout">
+            <div class="o-layout__item profile__user">
+                <div class="user-icon">
+                    <img src="{{ url_for('static', filename='img/avocado.jpg') }}" alt="">
+                </div>
+                <h2 class="c-heading-charlie">{{ g.user['firstname'] + ' ' + g.user['lastname'] }}</h2>
+            </div>
+            <div class="o-layout__item profile__links">
+                <a href="/achievements">Achievements</a>
+                <a href="/wishlist">Wishlist</a>
+                <a href="/logout">Sign Out</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

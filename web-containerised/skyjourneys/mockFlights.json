@@ -1,0 +1,116 @@
+{
+  "searchResults": [
+    {
+      "price": 259.91,
+      "outbound": {
+        "segments": [
+          {
+            "departureDateTime": "2019-08-08T07:45",
+            "departureAirportIATA": "LHR",
+            "flightLength": "06:50",
+            "arrivalDateTime": "2019-08-08T15:35",
+            "arrivalAirportIATA": "DBV"
+          }
+        ]
+      }
+    },
+    {
+      "price": 259.91,
+      "outbound": {
+        "segments": [
+          {
+            "departureDateTime": "2019-08-08T07:45",
+            "departureAirportIATA": "LHR",
+            "flightLength": "06:50",
+            "arrivalDateTime": "2019-08-08T15:35",
+            "arrivalAirportIATA": "DBV"
+          }
+        ]
+      }
+    },
+    {
+      "price": 259.91,
+      "outbound": {
+        "segments": [
+          {
+            "departureDateTime": "2019-08-08T07:45",
+            "departureAirportIATA": "LHR",
+            "flightLength": "06:50",
+            "arrivalDateTime": "2019-08-08T15:35",
+            "arrivalAirportIATA": "DBV"
+          }
+        ]
+      }
+    },
+    {
+      "price": 259.91,
+      "outbound": {
+        "segments": [
+          {
+            "departureDateTime": "2019-08-08T07:45",
+            "departureAirportIATA": "LHR",
+            "flightLength": "06:50",
+            "arrivalDateTime": "2019-08-08T15:35",
+            "arrivalAirportIATA": "DBV"
+          }
+        ]
+      }
+    },
+    {
+      "price": 259.91,
+      "outbound": {
+        "segments": [
+          {
+            "departureDateTime": "2019-08-08T07:45",
+            "departureAirportIATA": "LHR",
+            "flightLength": "06:50",
+            "arrivalDateTime": "2019-08-08T15:35",
+            "arrivalAirportIATA": "DBV"
+          }
+        ]
+      }
+    },
+    {
+      "price": 259.91,
+      "outbound": {
+        "segments": [
+          {
+            "departureDateTime": "2019-08-08T07:45",
+            "departureAirportIATA": "LHR",
+            "flightLength": "06:50",
+            "arrivalDateTime": "2019-08-08T15:35",
+            "arrivalAirportIATA": "DBV"
+          }
+        ]
+      }
+    },
+    {
+      "price": 259.91,
+      "outbound": {
+        "segments": [
+          {
+            "departureDateTime": "2019-08-08T07:45",
+            "departureAirportIATA": "LHR",
+            "flightLength": "06:50",
+            "arrivalDateTime": "2019-08-08T15:35",
+            "arrivalAirportIATA": "DBV"
+          }
+        ]
+      }
+    },
+    {
+      "price": 259.91,
+      "outbound": {
+        "segments": [
+          {
+            "departureDateTime": "2019-08-08T07:45",
+            "departureAirportIATA": "LHR",
+            "flightLength": "06:50",
+            "arrivalDateTime": "2019-08-08T15:35",
+            "arrivalAirportIATA": "DBV"
+          }
+        ]
+      }
+    }
+  ]
+}

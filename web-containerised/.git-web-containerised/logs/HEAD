@@ -1,0 +1,154 @@
+0000000000000000000000000000000000000000 74c923681399fab260469307969c1c5a8314db33 Dan Foad <daniel.foad@sky.uk> 1531838188 +0100	commit (initial): Added gitignore
+74c923681399fab260469307969c1c5a8314db33 74c923681399fab260469307969c1c5a8314db33 Dan Foad <daniel.foad@sky.uk> 1531838264 +0100	checkout: moving from test to master
+74c923681399fab260469307969c1c5a8314db33 74c923681399fab260469307969c1c5a8314db33 Dan Foad <daniel.foad@sky.uk> 1531838284 +0100	checkout: moving from master to test
+74c923681399fab260469307969c1c5a8314db33 74c923681399fab260469307969c1c5a8314db33 Dan Foad <daniel.foad@sky.uk> 1531838376 +0100	checkout: moving from test to master
+74c923681399fab260469307969c1c5a8314db33 20c4498984ba27e887f9f077c7c1451f6da0dfc2 Dan Foad <daniel.foad@sky.uk> 1531838688 +0100	commit: Set up primitive flask server
+20c4498984ba27e887f9f077c7c1451f6da0dfc2 20c4498984ba27e887f9f077c7c1451f6da0dfc2 Dan Foad <daniel.foad@sky.uk> 1531838718 +0100	checkout: moving from master to 001-primitive-server
+20c4498984ba27e887f9f077c7c1451f6da0dfc2 a0fe21ea8d6c5d9c3b1e6b1373e17b1cf5833ab7 Dan Foad <daniel.foad@sky.uk> 1531841461 +0100	commit: Set up test suite
+a0fe21ea8d6c5d9c3b1e6b1373e17b1cf5833ab7 31371e9585b6fb9c3c5e0466256c332684959e10 Dan Foad <daniel.foad@sky.uk> 1531842929 +0100	commit: Set up templating system
+31371e9585b6fb9c3c5e0466256c332684959e10 3e2e59bb3c076129ddbf72ec6c59a7d8f7a94369 Dan Foad <daniel.foad@sky.uk> 1531843377 +0100	commit: Fixed unit test
+3e2e59bb3c076129ddbf72ec6c59a7d8f7a94369 20c4498984ba27e887f9f077c7c1451f6da0dfc2 Dan Foad <daniel.foad@sky.uk> 1531902959 +0100	checkout: moving from 001-primitive-server to master
+20c4498984ba27e887f9f077c7c1451f6da0dfc2 65fe226e35c6c9334b2002dd7148e827c2983d28 Dan Foad <daniel.foad@sky.uk> 1531902977 +0100	commit: Setup file for test coverage
+65fe226e35c6c9334b2002dd7148e827c2983d28 705be8763d780bb4563f612cd7dac9cd2e4c7930 Dan Foad <daniel.foad@sky.uk> 1531903028 +0100	commit (merge): Fixed merge conflict
+705be8763d780bb4563f612cd7dac9cd2e4c7930 3e2e59bb3c076129ddbf72ec6c59a7d8f7a94369 Dan Foad <daniel.foad@sky.uk> 1531911431 +0100	checkout: moving from master to 001-primitive-server
+3e2e59bb3c076129ddbf72ec6c59a7d8f7a94369 705be8763d780bb4563f612cd7dac9cd2e4c7930 Dan Foad <daniel.foad@sky.uk> 1531911435 +0100	checkout: moving from 001-primitive-server to master
+705be8763d780bb4563f612cd7dac9cd2e4c7930 705be8763d780bb4563f612cd7dac9cd2e4c7930 Dan Foad <daniel.foad@sky.uk> 1531949869 +0100	checkout: moving from master to 002-initial-design
+705be8763d780bb4563f612cd7dac9cd2e4c7930 057fede18387c51e5964303277909dd08039a407 Dan Foad <daniel.foad@sky.uk> 1531949892 +0100	commit: Added Sky toolkit as minified css and added basic homepage design
+057fede18387c51e5964303277909dd08039a407 c3ace1a97769b347d7101c24b275fac8a880f3c2 Dan Foad <daniel.foad@sky.uk> 1531952007 +0100	commit: Styled nav bar in line with Sky guidelines
+c3ace1a97769b347d7101c24b275fac8a880f3c2 705be8763d780bb4563f612cd7dac9cd2e4c7930 Dan Foad <daniel.foad@sky.uk> 1531952021 +0100	checkout: moving from 002-initial-design to master
+705be8763d780bb4563f612cd7dac9cd2e4c7930 c3ace1a97769b347d7101c24b275fac8a880f3c2 Dan Foad <daniel.foad@sky.uk> 1531952031 +0100	checkout: moving from master to 002-initial-design
+c3ace1a97769b347d7101c24b275fac8a880f3c2 b995b4f2de57efd14bc654dc051ac6c96e1104c3 Dan Foad <daniel.foad@sky.uk> 1531952168 +0100	commit: Added .DS_Store to gitignore
+b995b4f2de57efd14bc654dc051ac6c96e1104c3 5e83ffd209805b912a1455184123d8688bbc4531 Dan Foad <daniel.foad@sky.uk> 1531952245 +0100	commit (merge): Sorted out gitignore
+5e83ffd209805b912a1455184123d8688bbc4531 6252a3186cb03b04776d61416988b96d89d9582a Dan Foad <daniel.foad@sky.uk> 1531953727 +0100	commit: Added start journey hero and epg input sidebar
+6252a3186cb03b04776d61416988b96d89d9582a 8c8195a4a00f48cc19d395e2476ed3220196e65e Dan Foad <daniel.foad@sky.uk> 1531954380 +0100	commit: Restyled logo to better match other brands
+8c8195a4a00f48cc19d395e2476ed3220196e65e 47b2e431d4f5a6f2cf297f35d600198b4e44c667 Dan Foad <daniel.foad@sky.uk> 1531994020 +0100	commit: Added additional content to homepage, hooked up template rendering
+47b2e431d4f5a6f2cf297f35d600198b4e44c667 47b2e431d4f5a6f2cf297f35d600198b4e44c667 Dan Foad <daniel.foad@sky.uk> 1531996758 +0100	reset: moving to HEAD
+47b2e431d4f5a6f2cf297f35d600198b4e44c667 efb8b604ce70be8888fdfbeb926d08a136f170aa Dan Foad <daniel.foad@sky.uk> 1531996814 +0100	commit: Worked on mobile/tablet responsiveness
+efb8b604ce70be8888fdfbeb926d08a136f170aa efb8b604ce70be8888fdfbeb926d08a136f170aa Dan Foad <daniel.foad@sky.uk> 1531999814 +0100	checkout: moving from 002-initial-design to 003-register-login
+efb8b604ce70be8888fdfbeb926d08a136f170aa 5c17eca5f30b178a01b738cdc170170d2f904d08 Dan Foad <daniel.foad@sky.uk> 1532003548 +0100	commit: Set up tests for validating username and password
+5c17eca5f30b178a01b738cdc170170d2f904d08 05d511e4b1520b3a88e97f0b4033de661a19dfbc Dan Foad <daniel.foad@sky.uk> 1532004227 +0100	commit: Added username, password and remember me fields
+05d511e4b1520b3a88e97f0b4033de661a19dfbc 2d67563ceda4be1f6036b6c47fa76b04a0185b63 Dan Foad <daniel.foad@sky.uk> 1532008037 +0100	commit: Completed register and login form inputs including validation
+2d67563ceda4be1f6036b6c47fa76b04a0185b63 2d67563ceda4be1f6036b6c47fa76b04a0185b63 Dan Foad <daniel.foad@sky.uk> 1532012228 +0100	checkout: moving from 003-register-login to 004-api-connector
+2d67563ceda4be1f6036b6c47fa76b04a0185b63 38ab8ddc25bf347d67ebe752710c6510f9d6868e Dan Foad <daniel.foad@sky.uk> 1532017775 +0100	commit: Unit tests for register/login
+38ab8ddc25bf347d67ebe752710c6510f9d6868e 705be8763d780bb4563f612cd7dac9cd2e4c7930 Dan Foad <daniel.foad@sky.uk> 1532017882 +0100	checkout: moving from 004-api-connector to master
+705be8763d780bb4563f612cd7dac9cd2e4c7930 b949466e5540a9b5e5a917eb20a524d0e9881764 Dan Foad <daniel.foad@sky.uk> 1532017883 +0100	merge 004-api-connector: Merge made by the 'recursive' strategy.
+b949466e5540a9b5e5a917eb20a524d0e9881764 23038a5fb53af75702e73778c912e592dfd73457 Dan Foad <daniel.foad@sky.uk> 1532018167 +0100	commit (merge): Merge conflict fixe
+23038a5fb53af75702e73778c912e592dfd73457 23038a5fb53af75702e73778c912e592dfd73457 Dan Foad <daniel.foad@sky.uk> 1532080003 +0100	checkout: moving from master to 005-menu-bar-fix
+23038a5fb53af75702e73778c912e592dfd73457 4913839c1f84692061cda92b20d5d9205c7564b4 Dan Foad <daniel.foad@sky.uk> 1532080556 +0100	commit: Fixed vertical align and mobile responsiveness of nav
+4913839c1f84692061cda92b20d5d9205c7564b4 23038a5fb53af75702e73778c912e592dfd73457 Dan Foad <daniel.foad@sky.uk> 1532080568 +0100	checkout: moving from 005-menu-bar-fix to master
+23038a5fb53af75702e73778c912e592dfd73457 e4ee0433bd32210d7fa3df7c833e2cc89197574f Dan Foad <daniel.foad@sky.uk> 1532084221 +0100	pull: Fast-forward
+e4ee0433bd32210d7fa3df7c833e2cc89197574f e4ee0433bd32210d7fa3df7c833e2cc89197574f Dan Foad <daniel.foad@sky.uk> 1532090811 +0100	checkout: moving from master to 006-accordion-chooser
+e4ee0433bd32210d7fa3df7c833e2cc89197574f e4ee0433bd32210d7fa3df7c833e2cc89197574f Dan Foad <daniel.foad@sky.uk> 1532090814 +0100	checkout: moving from 006-accordion-chooser to master
+e4ee0433bd32210d7fa3df7c833e2cc89197574f e4ee0433bd32210d7fa3df7c833e2cc89197574f Dan Foad <daniel.foad@sky.uk> 1532090839 +0100	checkout: moving from master to 006-accordion-chooser
+e4ee0433bd32210d7fa3df7c833e2cc89197574f e4ee0433bd32210d7fa3df7c833e2cc89197574f Dan Foad <daniel.foad@sky.uk> 1532090844 +0100	checkout: moving from 006-accordion-chooser to master
+e4ee0433bd32210d7fa3df7c833e2cc89197574f e4ee0433bd32210d7fa3df7c833e2cc89197574f Dan Foad <daniel.foad@sky.uk> 1532090954 +0100	reset: moving to HEAD
+e4ee0433bd32210d7fa3df7c833e2cc89197574f e4ee0433bd32210d7fa3df7c833e2cc89197574f Dan Foad <daniel.foad@sky.uk> 1532090962 +0100	reset: moving to HEAD
+e4ee0433bd32210d7fa3df7c833e2cc89197574f e4ee0433bd32210d7fa3df7c833e2cc89197574f Dan Foad <daniel.foad@sky.uk> 1532090987 +0100	checkout: moving from master to 006-accordion-chooser
+e4ee0433bd32210d7fa3df7c833e2cc89197574f 443f55c6d4d27f62deeaf6013cc18bc55ca6ecef Dan Foad <daniel.foad@sky.uk> 1532094780 +0100	commit: Working accordion slide
+443f55c6d4d27f62deeaf6013cc18bc55ca6ecef e4ee0433bd32210d7fa3df7c833e2cc89197574f Dan Foad <daniel.foad@sky.uk> 1532094801 +0100	checkout: moving from 006-accordion-chooser to master
+e4ee0433bd32210d7fa3df7c833e2cc89197574f 443f55c6d4d27f62deeaf6013cc18bc55ca6ecef Dan Foad <daniel.foad@sky.uk> 1532094816 +0100	checkout: moving from master to 006-accordion-chooser
+443f55c6d4d27f62deeaf6013cc18bc55ca6ecef b9a43bd7a01488c5657d28bb606498fc0d885793 Dan Foad <daniel.foad@sky.uk> 1532097425 +0100	commit: Added search details and scrollable items
+b9a43bd7a01488c5657d28bb606498fc0d885793 1f3f4337956b0cb20efd1acf6a4ca91360b4b73f Dan Foad <daniel.foad@sky.uk> 1532103288 +0100	commit: Added flight details
+1f3f4337956b0cb20efd1acf6a4ca91360b4b73f fb03e6944c913e345a1a37b9d0461c4516b69de4 Dan Foad <daniel.foad@sky.uk> 1532107339 +0100	commit: Connected route to api data
+fb03e6944c913e345a1a37b9d0461c4516b69de4 9bba36e6e00a43d1cc0ae4a5fa0c2e1e40aa9782 Dan Foad <daniel.foad@sky.uk> 1532108382 +0100	commit: Fixed visual issues with returnbound flights
+9bba36e6e00a43d1cc0ae4a5fa0c2e1e40aa9782 91f9a52da578950b98f0f9955d8b17f4aed14ec3 Dan Foad <daniel.foad@sky.uk> 1532125285 +0100	commit: Sorted out mobile responsiveness
+91f9a52da578950b98f0f9955d8b17f4aed14ec3 e4ee0433bd32210d7fa3df7c833e2cc89197574f Dan Foad <daniel.foad@sky.uk> 1532294263 +0100	checkout: moving from 006-accordion-chooser to master
+e4ee0433bd32210d7fa3df7c833e2cc89197574f d24872553a552f7f77943388af7af294623c2027 Dan Foad <daniel.foad@sky.uk> 1532294271 +0100	pull origin master: Fast-forward
+d24872553a552f7f77943388af7af294623c2027 91f9a52da578950b98f0f9955d8b17f4aed14ec3 Dan Foad <daniel.foad@sky.uk> 1532294283 +0100	checkout: moving from master to 006-accordion-chooser
+91f9a52da578950b98f0f9955d8b17f4aed14ec3 5f02fd43dfd3d68786414932cd9e16cabf1920c2 Dan Foad <daniel.foad@sky.uk> 1532344903 +0100	commit: Tested logout function
+5f02fd43dfd3d68786414932cd9e16cabf1920c2 8fed3bd01c9b5806f3462258ec8978dbf7e6c564 Dan Foad <daniel.foad@sky.uk> 1532356097 +0100	commit: Created start journey page
+8fed3bd01c9b5806f3462258ec8978dbf7e6c564 d24872553a552f7f77943388af7af294623c2027 Dan Foad <daniel.foad@sky.uk> 1532356100 +0100	checkout: moving from 006-accordion-chooser to master
+d24872553a552f7f77943388af7af294623c2027 8fed3bd01c9b5806f3462258ec8978dbf7e6c564 Dan Foad <daniel.foad@sky.uk> 1532356307 +0100	checkout: moving from master to 006-accordion-chooser
+8fed3bd01c9b5806f3462258ec8978dbf7e6c564 d24872553a552f7f77943388af7af294623c2027 Dan Foad <daniel.foad@sky.uk> 1532356368 +0100	checkout: moving from 006-accordion-chooser to master
+d24872553a552f7f77943388af7af294623c2027 8ed1419889f95455e459e3ad1180f213899b14cf Dan Foad <daniel.foad@sky.uk> 1532356399 +0100	pull origin master: Fast-forward
+8ed1419889f95455e459e3ad1180f213899b14cf 8ed1419889f95455e459e3ad1180f213899b14cf Dan Foad <daniel.foad@sky.uk> 1532356994 +0100	checkout: moving from master to 007-code-coverage
+8ed1419889f95455e459e3ad1180f213899b14cf 967b4c6f1664d7edc34efb283dc6a41ad0a267c4 Dan Foad <daniel.foad@sky.uk> 1532357491 +0100	commit: Added test cases
+967b4c6f1664d7edc34efb283dc6a41ad0a267c4 8ed1419889f95455e459e3ad1180f213899b14cf Dan Foad <daniel.foad@sky.uk> 1532357546 +0100	checkout: moving from 007-code-coverage to master
+8ed1419889f95455e459e3ad1180f213899b14cf 8ed1419889f95455e459e3ad1180f213899b14cf Dan Foad <daniel.foad@sky.uk> 1532359127 +0100	checkout: moving from master to 008-start-search
+8ed1419889f95455e459e3ad1180f213899b14cf 512da68b8cc08a549e05dcc8cff48687035b457b Dan Foad <daniel.foad@sky.uk> 1532359145 +0100	commit: Restyled search labels
+512da68b8cc08a549e05dcc8cff48687035b457b 8ed1419889f95455e459e3ad1180f213899b14cf Dan Foad <daniel.foad@sky.uk> 1532359154 +0100	checkout: moving from 008-start-search to master
+8ed1419889f95455e459e3ad1180f213899b14cf 512da68b8cc08a549e05dcc8cff48687035b457b Dan Foad <daniel.foad@sky.uk> 1532359160 +0100	checkout: moving from master to 008-start-search
+512da68b8cc08a549e05dcc8cff48687035b457b 08868a58e6ad02d677a26d9bf52475622f814b36 Dan Foad <daniel.foad@sky.uk> 1532360585 +0100	commit: Hooked start journey page to booking page
+08868a58e6ad02d677a26d9bf52475622f814b36 8ed1419889f95455e459e3ad1180f213899b14cf Dan Foad <daniel.foad@sky.uk> 1532360788 +0100	checkout: moving from 008-start-search to master
+8ed1419889f95455e459e3ad1180f213899b14cf 7103f050a8a6c4c28274b76e4aabd5b9063ed972 Dan Foad <daniel.foad@sky.uk> 1532360793 +0100	pull origin master: Fast-forward
+7103f050a8a6c4c28274b76e4aabd5b9063ed972 08868a58e6ad02d677a26d9bf52475622f814b36 Dan Foad <daniel.foad@sky.uk> 1532360957 +0100	checkout: moving from master to 008-start-search
+08868a58e6ad02d677a26d9bf52475622f814b36 7bdda26ed94c90bf29fc573e245eee6119f5e54e Dan Foad <daniel.foad@sky.uk> 1532361020 +0100	commit: Added utf encoding
+7bdda26ed94c90bf29fc573e245eee6119f5e54e 7bdda26ed94c90bf29fc573e245eee6119f5e54e Dan Foad <daniel.foad@sky.uk> 1532445642 +0100	checkout: moving from 008-start-search to 009-selenium-tests
+7bdda26ed94c90bf29fc573e245eee6119f5e54e 447e010a7dde310554eb0ef32a982fdf8678fd96 Dan Foad <daniel.foad@sky.uk> 1532445650 +0100	pull origin 009-selenium-tests: Fast-forward
+447e010a7dde310554eb0ef32a982fdf8678fd96 7bdda26ed94c90bf29fc573e245eee6119f5e54e Dan Foad <daniel.foad@sky.uk> 1532446269 +0100	checkout: moving from 009-selenium-tests to 008-start-search
+7bdda26ed94c90bf29fc573e245eee6119f5e54e d57a641ba379748b75b8677f5dcf857175d9e884 Dan Foad <daniel.foad@sky.uk> 1532453633 +0100	commit: Set up submission of search box to render into booking page
+d57a641ba379748b75b8677f5dcf857175d9e884 fc047b46c72595f686be3b5d6601b571393623b0 Dan Foad <daniel.foad@sky.uk> 1532455867 +0100	commit: Altered colours for radio buttons on flight chooser
+fc047b46c72595f686be3b5d6601b571393623b0 339045367a0d4bb188a91be4abc0f5bb09cc4bc1 Dan Foad <daniel.foad@sky.uk> 1532533749 +0100	commit: Selecting one way on start disabled return date
+339045367a0d4bb188a91be4abc0f5bb09cc4bc1 0ca7715f5312a648732b8cfb0801ba3b80e93450 Dan Foad <daniel.foad@sky.uk> 1532535065 +0100	commit: Validate name and password on register
+0ca7715f5312a648732b8cfb0801ba3b80e93450 2a205fd38b85f506d1d68a14ee227db1f72f3c1a Dan Foad <daniel.foad@sky.uk> 1532536521 +0100	commit: Fixed email validation errors
+2a205fd38b85f506d1d68a14ee227db1f72f3c1a 7103f050a8a6c4c28274b76e4aabd5b9063ed972 Dan Foad <daniel.foad@sky.uk> 1532536611 +0100	checkout: moving from 008-start-search to master
+7103f050a8a6c4c28274b76e4aabd5b9063ed972 9904ab3f68687f67985bdcc7636c81479b9afda8 Dan Foad <daniel.foad@sky.uk> 1532536614 +0100	pull origin master: Fast-forward
+9904ab3f68687f67985bdcc7636c81479b9afda8 ae4ba886d05ec9027fe5a1beb97f6e4c96b6a998 Dan Foad <daniel.foad@sky.uk> 1532537496 +0100	pull server master: Merge made by the 'recursive' strategy.
+ae4ba886d05ec9027fe5a1beb97f6e4c96b6a998 3b524da5266df9f71f2de68b45d74e10c81963c5 Dan Foad <daniel.foad@sky.uk> 1532538578 +0100	commit: Added UTF-8 decoding on JSON stream
+3b524da5266df9f71f2de68b45d74e10c81963c5 3b524da5266df9f71f2de68b45d74e10c81963c5 Dan Foad <daniel.foad@sky.uk> 1532625703 +0100	checkout: moving from master to 011-dockerisation
+3b524da5266df9f71f2de68b45d74e10c81963c5 f636c903bcdee0b20096070746bfa06b04109db6 Dan Foad <daniel.foad@sky.uk> 1532682705 +0100	commit: Added Dockerisation of webapp
+f636c903bcdee0b20096070746bfa06b04109db6 3b524da5266df9f71f2de68b45d74e10c81963c5 Dan Foad <daniel.foad@sky.uk> 1532706668 +0100	checkout: moving from 011-dockerisation to master
+3b524da5266df9f71f2de68b45d74e10c81963c5 195ee6232ae7addfcbf75fe5e771f8e7c9d3f121 Dan Foad <daniel.foad@sky.uk> 1532706672 +0100	pull origin master: Fast-forward
+195ee6232ae7addfcbf75fe5e771f8e7c9d3f121 195ee6232ae7addfcbf75fe5e771f8e7c9d3f121 Dan Foad <daniel.foad@sky.uk> 1532891176 +0100	checkout: moving from master to 012-user-profile
+195ee6232ae7addfcbf75fe5e771f8e7c9d3f121 d74e75b7d4aa4485f4c8d55127f4c620e3ed3477 Dan Foad <daniel.foad@sky.uk> 1532895891 +0100	commit: Added user profile page
+d74e75b7d4aa4485f4c8d55127f4c620e3ed3477 e609163cfe708c779e797455a5e20c032754da56 Dan Foad <daniel.foad@sky.uk> 1532898384 +0100	commit: Added unit test for choose page
+e609163cfe708c779e797455a5e20c032754da56 4b85216328f0b301ad2f08e21a01b3c9d5e45020 Dan Foad <daniel.foad@sky.uk> 1532899218 +0100	commit: Set up mock login for unit testing
+4b85216328f0b301ad2f08e21a01b3c9d5e45020 195ee6232ae7addfcbf75fe5e771f8e7c9d3f121 Dan Foad <daniel.foad@sky.uk> 1532900318 +0100	checkout: moving from 012-user-profile to master
+195ee6232ae7addfcbf75fe5e771f8e7c9d3f121 bba52ebeb0be4e04f6ebafa11f5cd64dc4b2e630 Dan Foad <daniel.foad@sky.uk> 1532900325 +0100	pull origin master: Fast-forward
+bba52ebeb0be4e04f6ebafa11f5cd64dc4b2e630 bba52ebeb0be4e04f6ebafa11f5cd64dc4b2e630 Dan Foad <daniel.foad@sky.uk> 1532902777 +0100	checkout: moving from master to 013-wishlist-page
+bba52ebeb0be4e04f6ebafa11f5cd64dc4b2e630 bba52ebeb0be4e04f6ebafa11f5cd64dc4b2e630 Dan Foad <daniel.foad@sky.uk> 1532902781 +0100	checkout: moving from 013-wishlist-page to master
+bba52ebeb0be4e04f6ebafa11f5cd64dc4b2e630 bba52ebeb0be4e04f6ebafa11f5cd64dc4b2e630 Dan Foad <daniel.foad@sky.uk> 1532902789 +0100	checkout: moving from master to 013-wishlist-page
+bba52ebeb0be4e04f6ebafa11f5cd64dc4b2e630 f7de54d97e1443cf1a04553a90bed07794262aa0 Dan Foad <daniel.foad@sky.uk> 1532902808 +0100	commit: Added wishlist page that loads static data w/ lazy load img
+f7de54d97e1443cf1a04553a90bed07794262aa0 bba52ebeb0be4e04f6ebafa11f5cd64dc4b2e630 Dan Foad <daniel.foad@sky.uk> 1532902826 +0100	checkout: moving from 013-wishlist-page to master
+bba52ebeb0be4e04f6ebafa11f5cd64dc4b2e630 f7de54d97e1443cf1a04553a90bed07794262aa0 Dan Foad <daniel.foad@sky.uk> 1532902832 +0100	checkout: moving from master to 013-wishlist-page
+f7de54d97e1443cf1a04553a90bed07794262aa0 c5a1782fe9e1984163061b5a403e0cd020c981ea Dan Foad <daniel.foad@sky.uk> 1532961499 +0100	commit: Moved mock data into connector method
+c5a1782fe9e1984163061b5a403e0cd020c981ea bba52ebeb0be4e04f6ebafa11f5cd64dc4b2e630 Dan Foad <daniel.foad@sky.uk> 1532968444 +0100	checkout: moving from 013-wishlist-page to master
+bba52ebeb0be4e04f6ebafa11f5cd64dc4b2e630 3757a19c02fdc306e31822ce0e2044bde0a17b18 Dan Foad <daniel.foad@sky.uk> 1532968448 +0100	pull origin master: Fast-forward
+3757a19c02fdc306e31822ce0e2044bde0a17b18 3757a19c02fdc306e31822ce0e2044bde0a17b18 Dan Foad <daniel.foad@sky.uk> 1532968475 +0100	checkout: moving from master to 014-booking-confirmation
+3757a19c02fdc306e31822ce0e2044bde0a17b18 19dda043434eaa4b6fe908816c5d08e582ea0e37 Dan Foad <daniel.foad@sky.uk> 1532971443 +0100	commit: Added boto3 sns integration
+19dda043434eaa4b6fe908816c5d08e582ea0e37 e549ab5edb9d4af46cf3b53ba10175efded4201e Dan Foad <daniel.foad@sky.uk> 1533047462 +0100	commit: Hooked booking confirmation page up to connector.py
+e549ab5edb9d4af46cf3b53ba10175efded4201e 3757a19c02fdc306e31822ce0e2044bde0a17b18 Dan Foad <daniel.foad@sky.uk> 1533047786 +0100	checkout: moving from 014-booking-confirmation to master
+3757a19c02fdc306e31822ce0e2044bde0a17b18 c86e110cdd4173b703c6629f042ed0c056afa022 Dan Foad <daniel.foad@sky.uk> 1533047812 +0100	commit: Added boto3 to Docker build
+c86e110cdd4173b703c6629f042ed0c056afa022 f9e7fe1059e5596baffd22c5525e07b0e93b0103 Dan Foad <daniel.foad@sky.uk> 1533047822 +0100	pull origin master: Merge made by the 'recursive' strategy.
+f9e7fe1059e5596baffd22c5525e07b0e93b0103 e549ab5edb9d4af46cf3b53ba10175efded4201e Dan Foad <daniel.foad@sky.uk> 1533049512 +0100	checkout: moving from master to 014-booking-confirmation
+e549ab5edb9d4af46cf3b53ba10175efded4201e f9e7fe1059e5596baffd22c5525e07b0e93b0103 Dan Foad <daniel.foad@sky.uk> 1533049598 +0100	pull origin master: Fast-forward
+f9e7fe1059e5596baffd22c5525e07b0e93b0103 f9e7fe1059e5596baffd22c5525e07b0e93b0103 Dan Foad <daniel.foad@sky.uk> 1533049619 +0100	checkout: moving from 014-booking-confirmation to master
+f9e7fe1059e5596baffd22c5525e07b0e93b0103 cb2a19cdcc8a3564cb38571050505f5277223ff2 Dan Foad <daniel.foad@sky.uk> 1533049741 +0100	commit: Added confirmation message
+cb2a19cdcc8a3564cb38571050505f5277223ff2 cb2a19cdcc8a3564cb38571050505f5277223ff2 Dan Foad <daniel.foad@sky.uk> 1533050419 +0100	checkout: moving from master to 015-feature-page
+cb2a19cdcc8a3564cb38571050505f5277223ff2 a08ceff33711a5de2d2532569914c9c01fc037dd Dan Foad <daniel.foad@sky.uk> 1533055356 +0100	commit: Added Dubrovnkik featured page
+a08ceff33711a5de2d2532569914c9c01fc037dd cb2a19cdcc8a3564cb38571050505f5277223ff2 Dan Foad <daniel.foad@sky.uk> 1533057104 +0100	checkout: moving from 015-feature-page to master
+cb2a19cdcc8a3564cb38571050505f5277223ff2 06101e78e93b0256f740222361157a84692f9c13 Dan Foad <daniel.foad@sky.uk> 1533057107 +0100	pull origin: Fast-forward
+06101e78e93b0256f740222361157a84692f9c13 06101e78e93b0256f740222361157a84692f9c13 Dan Foad <daniel.foad@sky.uk> 1533058196 +0100	checkout: moving from master to 016-search-populate
+06101e78e93b0256f740222361157a84692f9c13 16d590baea766312dffdea9b3d3beae3cb50bdd5 Dan Foad <daniel.foad@sky.uk> 1533058218 +0100	commit: Set initial values of search fields from booking.py
+16d590baea766312dffdea9b3d3beae3cb50bdd5 2f535a27aa549924a25aa10f20588f71d23357ee Dan Foad <daniel.foad@sky.uk> 1533059777 +0100	commit: Search page now takes initial values from POST request, currently from featured page
+2f535a27aa549924a25aa10f20588f71d23357ee 6f5bc0db57994f5ae52861c7d628cc1edc575a32 Dan Foad <daniel.foad@sky.uk> 1533060863 +0100	commit: Change Search on booking page now keeps track of what was entered
+6f5bc0db57994f5ae52861c7d628cc1edc575a32 9040ecdaf637bc1ffbb75b0f03472b345c9494dc Dan Foad <daniel.foad@sky.uk> 1533061063 +0100	commit: EPG Code now sends to Dubrovnik
+9040ecdaf637bc1ffbb75b0f03472b345c9494dc 06101e78e93b0256f740222361157a84692f9c13 Dan Foad <daniel.foad@sky.uk> 1533114421 +0100	checkout: moving from 016-search-populate to master
+06101e78e93b0256f740222361157a84692f9c13 3920d1012cf484cdf547af79cde82c65f62d1f86 Dan Foad <daniel.foad@sky.uk> 1533114424 +0100	pull origin: Fast-forward
+3920d1012cf484cdf547af79cde82c65f62d1f86 61ef675993cfb74931a53ee362a6df1951449cbd Dan Foad <daniel.foad@sky.uk> 1533133237 +0100	pull origin master: Fast-forward
+61ef675993cfb74931a53ee362a6df1951449cbd 4db257d57bdf61ecc3986e9c782a22bedc824b6b Dan Foad <daniel.foad@sky.uk> 1533136376 +0100	commit: Changed logo URI
+4db257d57bdf61ecc3986e9c782a22bedc824b6b 4db257d57bdf61ecc3986e9c782a22bedc824b6b Dan Foad <daniel.foad@sky.uk> 1533207481 +0100	checkout: moving from master to 019-flights-api
+4db257d57bdf61ecc3986e9c782a22bedc824b6b b06f0bcc14501c89e124e4a9e649e72ddf395c90 Dan Foad <daniel.foad@sky.uk> 1533208263 +0100	commit: Hooked flight search up to new API
+b06f0bcc14501c89e124e4a9e649e72ddf395c90 4db257d57bdf61ecc3986e9c782a22bedc824b6b Dan Foad <daniel.foad@sky.uk> 1533214277 +0100	checkout: moving from 019-flights-api to master
+4db257d57bdf61ecc3986e9c782a22bedc824b6b d6b7506238a6fc45cf792256c2369a37d0da3e33 Dan Foad <daniel.foad@sky.uk> 1533214280 +0100	pull origin master: Fast-forward
+d6b7506238a6fc45cf792256c2369a37d0da3e33 e6d3b2f3e4d7476690a27d7498b6626538e12114 Dan Foad <daniel.foad@sky.uk> 1533214312 +0100	commit: Fixed API URL
+e6d3b2f3e4d7476690a27d7498b6626538e12114 e6d3b2f3e4d7476690a27d7498b6626538e12114 Dan Foad <daniel.foad@sky.uk> 1533216355 +0100	checkout: moving from master to 020-autocomplete-city
+e6d3b2f3e4d7476690a27d7498b6626538e12114 0b59d259d70dc8a1f6fcaaa7f7c12450fcd99b7d Dan Foad <daniel.foad@sky.uk> 1533223774 +0100	commit: Allow for search via city names
+0b59d259d70dc8a1f6fcaaa7f7c12450fcd99b7d 8f7ee7f81a41137d295648c1d4d4a1a8b2594c89 Dan Foad <daniel.foad@sky.uk> 1533223795 +0100	commit: Allow for search via city names
+8f7ee7f81a41137d295648c1d4d4a1a8b2594c89 0a7345d172da49673d7ca38fa33ac428191fc08d Dan Foad <daniel.foad@sky.uk> 1533224022 +0100	commit: Featured page links to correct destination
+0a7345d172da49673d7ca38fa33ac428191fc08d e6d3b2f3e4d7476690a27d7498b6626538e12114 Dan Foad <daniel.foad@sky.uk> 1533224096 +0100	checkout: moving from 020-autocomplete-city to master
+e6d3b2f3e4d7476690a27d7498b6626538e12114 c51044d97f146bc32917c2f7ac3b5ed444eb7c73 Dan Foad <daniel.foad@sky.uk> 1533224099 +0100	pull origin master: Fast-forward
+c51044d97f146bc32917c2f7ac3b5ed444eb7c73 c51044d97f146bc32917c2f7ac3b5ed444eb7c73 Dan Foad <daniel.foad@sky.uk> 1533227954 +0100	checkout: moving from master to 021-stripe-price
+c51044d97f146bc32917c2f7ac3b5ed444eb7c73 f149080ccf55580cd0fe0d5d1634223041a92023 Dan Foad <daniel.foad@sky.uk> 1533227978 +0100	commit: Display total price on accordion + payment modal
+f149080ccf55580cd0fe0d5d1634223041a92023 f149080ccf55580cd0fe0d5d1634223041a92023 Dan Foad <daniel.foad@sky.uk> 1533230175 +0100	checkout: moving from 021-stripe-price to 022-data-setting
+f149080ccf55580cd0fe0d5d1634223041a92023 7d1e937dd13976bb1572bf31c71d96f9f7e4184d Dan Foad <daniel.foad@sky.uk> 1533232568 +0100	commit: Added menu items and filler data for hotels
+7d1e937dd13976bb1572bf31c71d96f9f7e4184d 26fa52428d562b7336d1ebe67e87a89d659da91e Dan Foad <daniel.foad@sky.uk> 1533233271 +0100	commit: Input validation min/max on search form
+26fa52428d562b7336d1ebe67e87a89d659da91e c51044d97f146bc32917c2f7ac3b5ed444eb7c73 Dan Foad <daniel.foad@sky.uk> 1533233484 +0100	checkout: moving from 022-data-setting to master
+c51044d97f146bc32917c2f7ac3b5ed444eb7c73 7df3491da12cc3c6457ebc8af6fef2be73fb9ff1 Dan Foad <daniel.foad@sky.uk> 1533233488 +0100	pull origin: Fast-forward
+7df3491da12cc3c6457ebc8af6fef2be73fb9ff1 d51a16232f64142b07f25657bbc856255d5749f7 Dan Foad <daniel.foad@sky.uk> 1533235714 +0100	commit: Added unit tests
+d51a16232f64142b07f25657bbc856255d5749f7 1e86b99dac8c5a42d8171225a0f82231f2697ad3 Dan Foad <daniel.foad@sky.uk> 1533235723 +0100	pull origin master: Merge made by the 'recursive' strategy.
+1e86b99dac8c5a42d8171225a0f82231f2697ad3 607fe3b5b35f0c2a576b3e42b4df4d719b145160 Dan Foad <daniel.foad@sky.uk> 1533236666 +0100	commit: Removed unused links from user profgile
+607fe3b5b35f0c2a576b3e42b4df4d719b145160 cd9412b406d1ba7148e6693868e66a3dda29a45a Dan Foad <daniel.foad@sky.uk> 1533239561 +0100	commit: Set proper API url
+cd9412b406d1ba7148e6693868e66a3dda29a45a 809fecbc64f77a2e4065a85ffb2659ab68415003 Dan Foad <daniel.foad@sky.uk> 1533239570 +0100	pull origin master: Merge made by the 'recursive' strategy.
+809fecbc64f77a2e4065a85ffb2659ab68415003 7adad449678120f1d6faba1abb450d58a6c0827e Dan Foad <daniel.foad@sky.uk> 1533239714 +0100	commit: Set proper API url
+7adad449678120f1d6faba1abb450d58a6c0827e d5a6a4dd096bfb908a309bb394f4a680412b8a38 Dan Foad <daniel.foad@sky.uk> 1533299693 +0100	commit: Phone number and tests

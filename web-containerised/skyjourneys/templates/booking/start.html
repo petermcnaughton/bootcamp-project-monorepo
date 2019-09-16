@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block title %}Start Your Journey{% endblock %}
+
+{% block content %}
+<div class="o-container">
+    <article class="c-tile start__container">
+        <a href="/" class="c-panel__back c-link c-link--back">Back</a>
+        <div class="c-tile__content">
+            <div class="c-tile__body">
+                <p class="c-tile__title c-heading-delta u-margin-bottom-none">Where do you want to go?</p>
+                <div class="start__search">
+                    <form class="start__form" action="/choose" method="POST">
+                        <div class="start__form--fields">
+                            <div class="start__field">
+                                <label for="from">From</label>
+                                <input class="autocomplete-field" type="text" id="from" name="from" placeholder="e.g. London" value="{{ initialValues['from'] }}">
+                                <img src="{{ url_for('static', filename='icon/departures_alt.svg') }}" alt="">
+                            </div>
+                            <div class="start__field">
+                                <label for="to">To</label>
+                                <input class="autocomplete-field" type="text" id="to" name="to" placeholder="e.g. New York" value="{{ initialValues['to'] }}">
+                                <img src="{{ url_for('static', filename='icon/arrivals.svg') }}" alt="">
+                            </div>
+                            <div class="start__field">
+                                <label for="depart">Depart</label>
+                                <input type="date" id="depart" name="depart" min="2018-08-04" value="{{ initialValues['depart'] }}">
+                                <img src="{{ url_for('static', filename='icon/calendar.svg') }}" alt="">
+                            </div>
+                            <div class="start__field">
+                                <label for="returnbound">Return</label>
+                                <input type="date" id="returnbound" name="returnbound" min="2018-08-05" value="{{ initialValues['returnbound'] }}">
+                                <img src="{{ url_for('static', filename='icon/calendar.svg') }}" alt="">
+                            </div>
+                            <div class="start__field">
+                                <label for="adults">Adults</label>
+                                <input type="number" id="adults" name="adults" min="1" max="5" value="{{ initialValues['adults'] }}">
+                                <img src="{{ url_for('static', filename='icon/people.svg') }}" alt="">
+                            </div>
+                            <div class="start__field">
+                                <label for="children">Children</label>
+                                <input type="number" id="children" name="children" min="0" max="5" value="{{ initialValues['children'] }}">
+                                <img src="{{ url_for('static', filename='icon/boy-with-big-head.svg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="start__selections">
+                            <fieldset>
+                                <label for="return"><input type="radio" name="return" value="Return" id="return" {{ initialValues['returnReturn'] }}>Return</label>
+                                <label for="oneway"><input type="radio" name="return" value="One Way" id="oneway" {{ initialValues['returnOneWay'] }}>One Way</label>
+                            </fieldset>
+                            <button type="submit" class="c-btn c-btn--primary">Search<img class="c-btn__icon c-btn__icon--right" src="https://www.sky.com/assets/toolkit/docs/buttons/example.svg" alt="Example Icon" /></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+{% endblock %}

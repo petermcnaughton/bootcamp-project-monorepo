@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Wishlist{% endblock %}
+
+{% block content %}
+    <div class="o-container">
+        <div class="o-layout wishlist">
+            {% for location in wishlist %}
+                <div class="wishlist__item o-layout__item u-width-1/3@large u-width-1/2@medium u-width-1/1">
+                    <div class="wishlist__content">
+                        <img data-src="http://placeimg.com/480/480/arch?{{ loop.index }}" alt="">
+                        <h2 class="c-heading-alpha">{{ location['city'] }}</h2>
+                        <h3 class="c-heading-charlie">{{ location['country'] }}</h3>
+                        <div class="c-panel__toggle c-link c-link--close"></div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
